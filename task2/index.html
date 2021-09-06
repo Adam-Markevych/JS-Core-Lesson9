@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>task2</title>
+</head>
+<body>
+        <div class="container">
+            <div class="block1 block">
+                <h2>Список завдань</h2>
+            <form name="form1" class="form">
+                <p class="t"><input class="textt" name="chek"  type="checkbox">HTML5</p>
+                <p class="t"><input class="textt" name="chek"  type="checkbox">SCSS3</p>
+                <p class="t"><input class="textt" name="chek"  type="checkbox">SASS/SCSS</p>
+                <p class="t"><input class="textt" name="chek"  type="checkbox">Bootstrap</p> 
+
+            </form>
+            </div>
+            <div class="block2 block">
+                <h2>Додате нове завдань</h2>
+                <form name="form2">
+                    <input type="text" class="input" name="inp">
+                </form>
+               <a href="#" class="but">додати</a>
+            </div>
+            <div class="error1 error">
+                <h3>Попередження!</h3>
+                <p>Пусте поле не можна добавити.</p>
+                <i class="fas fa-times er1"></i>
+            </div>
+            <div class="error2 error">
+                <h3>Попередження!</h3>
+                <p>Останній таск зі списку Ви не можете видалити.</p>
+                <i class="fas fa-times er2"></i>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>

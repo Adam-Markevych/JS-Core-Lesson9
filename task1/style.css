@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    height: 800px;
+    text-align: center;
+    padding-top: 500px;
+    background-color: rgb(185, 185, 185);
+}
+
+.footer{
+    height: 800px;
+    background-color: rgb(185, 185, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    padding: 100px 100px;
+}
+hr{
+    margin-top: 20px;
+    width: 300px;
+    border: 3px solid red;
+    transition: all 1s;
+}
+.wolf{
+    width: 500px;
+    height: 320px;
+    transition: all 1s;
+}
+.img{
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.scroll-up{
+    font-size: 60px;
+    transition: all 1s;
+}
+.scroll-down{
+    transition: all 1s;
+}
+h1{
+    transition: all 1s;
+}
